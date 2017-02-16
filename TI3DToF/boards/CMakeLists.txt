@@ -1,0 +1,7 @@
+add_subdirectory(CalculusCDK)
+add_subdirectory(TintinCDK)
+
+set(CONF_FILES "${CONF_FILES}" PARENT_SCOPE)
+set(UDEV_FILES "${UDEV_FILES}" PARENT_SCOPE)
+set(FW_FILES "${FW_FILES}" PARENT_SCOPE)
+set(INF_FILES "${INF_FILES}" PARENT_SCOPE)
